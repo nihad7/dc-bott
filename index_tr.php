@@ -1,6 +1,4 @@
-<html lang="en">
-  
-  <html class="desktop mbr-site-loaded"><head>
+<html class="desktop mbr-site-loaded"><head>
   <!-- Site made with Mobirise Website Builder v5.3.5, https://mobirise.com -->
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
