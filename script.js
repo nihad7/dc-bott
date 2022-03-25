@@ -4,18 +4,6 @@
 
 // prints a message in the browser's dev tools console
 console.log("Yoksa Sendemi Bizden Birisin 🌎");
-console.log("Yoksa Sendemi Bizden Birisin 🌎");
-console.log("Yoksa Sendemi Bizden Birisin 🌎");
-console.log("Yoksa Sendemi Bizden Birisin 🌎");
-console.log("Yoksa Sendemi Bizden Birisin 🌎");
-console.log("Yoksa Sendemi Bizden Birisin 🌎");
-console.log("Yoksa Sendemi Bizden Birisin 🌎");
-console.log("Yoksa Sendemi Bizden Birisin 🌎");
-console.log("Yoksa Sendemi Bizden Birisin 🌎");
-console.log("Yoksa Sendemi Bizden Birisin 🌎");
-console.log("Yoksa Sendemi Bizden Birisin 🌎");
-console.log("Yoksa Sendemi Bizden Birisin 🌎");
-console.log("Yoksa Sendemi Bizden Birisin 🌎");
 // Popup Al
 var modal = document.getElementById('myModal');
 
