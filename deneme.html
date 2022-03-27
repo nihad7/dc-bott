@@ -1,27 +1,18 @@
-<p/> Bize Destek Vermek İçin "Destekle" Tuşuna Bas
-
-<p/> <button onClick="satinAl()">Destekle</button>
-
-<script>
-    const desteklenenOdemeYontemleri = [{
-        supportedMethods: ['basic-card']
-    }];
-    const odemeDetaylari = {
-        total: {
-            label: 'Toplam',
-            amount: {
-                currency: 'TRY',
-                value: 100
-            }
-        }
-    };
-    const request = new PaymentRequest(desteklenenOdemeYontemleri, odemeDetaylari);
-    async function satinAl() {
-        // Ödeme ekranını göster ve ilgili ödeme bilgilerinin doldurulmasını bekle
-        const paymentResponse = await request.show();
-        // Ödemeyi tamamla
-        await paymentResponse.complete();
-        // Ödeme bilgilerini bankaya ilet 
-        console.log(paymentResponse.details); // CC #, ad, güvenlik kodu, son kullanım tarihi vb.
-    }
-</script>
+<div class="container">
+    <div class="box">
+        <div class="chip"></div>
+        <p id="number">
+            <span>0123</span>
+            <span>4567</span>
+            <span>8910</span>
+            <span>1234</span>
+        </p>
+    </div>
+    <div class="detail">
+        <p id="name">Kod Satırım</p>
+        <div class="logo">
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</div>
