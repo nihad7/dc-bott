@@ -1,0 +1,24 @@
+{
+  "name": "glitch-in-bio",
+  "version": "0.0.3",
+  "description": "Your very own link-in-bio app.",
+  "main": "index.html",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "release": "auto shipit"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "author": "Keith Kurson <keith@glitch.com>",
+  "auto": {
+    "plugins": [],
+    "onlyPublishWithReleaseLabel": true
+  },
+  "dependencies": {
+    "di": "^1.9.0",
+    "php": "^1.0.2"
+  }
+}
